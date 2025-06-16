@@ -1,6 +1,8 @@
 name: SwiftLint
 
-on: [pull_request, push]
+on:
+  pull_request:
+    branches: [main]  # Change to your default branch
 
 jobs:
   lint:
@@ -8,7 +10,7 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Install SwiftLint

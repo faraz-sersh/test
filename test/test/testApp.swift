@@ -2,7 +2,7 @@
 //  testApp.swift
 //  test
 //
-//  Created by Alex Sazhnov on 2025-06-15.
+//  Created by Alex Sazhnov on 2025-06-15.!
 //
 
 import SwiftUI
