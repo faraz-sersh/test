@@ -1,0 +1,19 @@
+# .swiftlint.yml
+included:
+  - Sources
+  - Tests
+
+excluded:
+  - Carthage
+  - Pods
+  - build
+
+opt_in_rules:
+  - force_unwrapping
+  - empty_count
+
+disabled_rules:
+  - line_length
+
+reporter: github-actions-logging
+
